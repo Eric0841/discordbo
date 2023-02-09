@@ -3,7 +3,7 @@
 
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const { prefix, token, cookie, color } = require('./config.json'); // Get your token, prefix and cookie from here..
+const { prefix, cookie, color } = require('./config.json'); // Get your token, prefix and cookie from here..
 const nblx = require("noblox.js"); // The module of roblox..
 const fs = require('fs');
 const path = require("path");
